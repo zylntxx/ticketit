@@ -6,144 +6,144 @@ return [
   *  Constants
   */
 
-  'nav-active-tickets'               => 'Active Tickets',
-  'nav-completed-tickets'            => 'Completed Tickets',
+  'nav-active-tickets'               => '未完成工单',
+  'nav-completed-tickets'            => '已完成工单',
 
   // Tables
   'table-id'                         => '#',
-  'table-subject'                    => 'Subject',
-  'table-owner'                      => 'Owner',
-  'table-status'                     => 'Status',
-  'table-last-updated'               => 'Last Updated',
-  'table-priority'                   => 'Priority',
-  'table-agent'                      => 'Agent',
-  'table-category'                   => 'Category',
+  'table-subject'                    => '主题',
+  'table-owner'                      => '所有者',
+  'table-status'                     => '状态',
+  'table-last-updated'               => '上次更新',
+  'table-priority'                   => '优先级',
+  'table-agent'                      => '客服',
+  'table-category'                   => '类别',
 
   // Datatables
   'table-decimal'                    => '',
-  'table-empty'                      => 'No data available in table',
-  'table-info'                       => 'Showing _START_ to _END_ of _TOTAL_ entries',
-  'table-info-empty'                 => 'Showing 0 to 0 of 0 entries',
-  'table-info-filtered'              => '(filtered from _MAX_ total entries)',
+  'table-empty'                      => '表中没有可用数据',
+  'table-info'                       => '显示从 _START_ 到 _END_ 的共 _TOTAL_ 条数据',
+  'table-info-empty'                 => '显示从0到0的共0条数据',
+  'table-info-filtered'              => '(从 _MAX_ 条数据中筛选)',
   'table-info-postfix'               => '',
   'table-thousands'                  => ',',
-  'table-length-menu'                => 'Show _MENU_ entries',
-  'table-loading-results'            => 'Loading...',
-  'table-processing'                 => 'Processing...',
-  'table-search'                     => 'Search:',
-  'table-zero-records'               => 'No matching records found',
-  'table-paginate-first'             => 'First',
-  'table-paginate-last'              => 'Last',
-  'table-paginate-next'              => 'Next',
-  'table-paginate-prev'              => 'Previous',
-  'table-aria-sort-asc'              => ': activate to sort column ascending',
-  'table-aria-sort-desc'             => ': activate to sort column descending',
+  'table-length-menu'                => '显示 _MENU_ 数据',
+  'table-loading-results'            => '正在加载...',
+  'table-processing'                 => '处理中...',
+  'table-search'                     => '搜索:',
+  'table-zero-records'               => '未找到匹配值',
+  'table-paginate-first'             => '第一个',
+  'table-paginate-last'              => '最后一个',
+  'table-paginate-next'              => '下一个',
+  'table-paginate-prev'              => '上一个',
+  'table-aria-sort-asc'              => ': 以升序排列',
+  'table-aria-sort-desc'             => ': 以降序排列',
 
-  'btn-back'                         => 'Back',
-  'btn-cancel'                       => 'Cancel', // NEW
-  'btn-close'                        => 'Close',
-  'btn-delete'                       => 'Delete',
-  'btn-edit'                         => 'Edit',
-  'btn-mark-complete'                => 'Mark Complete',
-  'btn-submit'                       => 'Submit',
+  'btn-back'                         => '返回',
+  'btn-cancel'                       => '取消', // NEW
+  'btn-close'                        => '关闭',
+  'btn-delete'                       => '删除',
+  'btn-edit'                         => '编辑',
+  'btn-mark-complete'                => '标为完成',
+  'btn-submit'                       => '提交',
 
-  'agent'                            => 'Agent',
-  'category'                         => 'Category',
+  'agent'                            => '客服',
+  'category'                         => '类别',
   'colon'                            => ': ',
-  'comments'                         => 'Comments',
-  'created'                          => 'Created',
-  'description'                      => 'Description',
+  'comments'                         => '注释',
+  'created'                          => '新建',
+  'description'                      => '描述',
   'flash-x'                          => '×', // &times;
-  'last-update'                      => 'Last Update',
-  'no-replies'                       => 'No replies.',
-  'owner'                            => 'Owner',
-  'priority'                         => 'Priority',
-  'reopen-ticket'                    => 'Reopen Ticket',
-  'reply'                            => 'Reply',
-  'responsible'                      => 'Responsible',
-  'status'                           => 'Status',
-  'subject'                          => 'Subject',
+  'last-update'                      => '上次更新',
+  'no-replies'                       => '没有回复.',
+  'owner'                            => '所有者',
+  'priority'                         => '优先级',
+  'reopen-ticket'                    => '重新开启',
+  'reply'                            => '回复',
+  'responsible'                      => '责任',
+  'status'                           => '状态',
+  'subject'                          => '主题',
 
  /*
   *  Page specific
   */
 
 // ____
-  'index-title'                      => 'Helpdesk main page',
+  'index-title'                      => '帮助页面',
 
 // tickets/____
-  'index-my-tickets'                 => 'My Tickets',
-  'btn-create-new-ticket'            => 'Create new ticket',
-  'index-complete-none'              => 'There are no complete tickets',
-  'index-active-check'               => 'Be sure to check Active Tickets if you cannot find your ticket.',
-  'index-active-none'                => 'There are no active tickets,',
-  'index-create-new-ticket'          => 'create new ticket',
-  'index-complete-check'             => 'Be sure to check Complete Tickets if you cannot find your ticket.',
+  'index-my-tickets'                 => '我的工单',
+  'btn-create-new-ticket'            => '新建工单',
+  'index-complete-none'              => '没有已完成工单',
+  'index-active-check'               => '如果您找不到您的工单，不妨查看已完成的工单.',
+  'index-active-none'                => '没有开启的工单,',
+  'index-create-new-ticket'          => '新建工单',
+  'index-complete-check'             => '如果您找不到您的工单，不妨查看已完成的工单.',
 
-  'create-ticket-title'              => 'New Ticket Form',
-  'create-new-ticket'                => 'Create New Ticket',
-  'create-ticket-brief-issue'        => 'A brief of your issue ticket',
-  'create-ticket-describe-issue'     => 'Describe your issue here in details',
+  'create-ticket-title'              => '新建工单表单',
+  'create-new-ticket'                => '新建工单',
+  'create-ticket-brief-issue'        => '工单简介',
+  'create-ticket-describe-issue'     => '在这里详细描述您的问题',
 
-  'show-ticket-title'                => 'Ticket',
-  'show-ticket-js-delete'            => 'Are you sure you want to delete: ',
-  'show-ticket-modal-delete-title'   => 'Delete Ticket',
-  'show-ticket-modal-delete-message' => 'Are you sure you want to delete ticket: :subject?',
+  'show-ticket-title'                => '工单',
+  'show-ticket-js-delete'            => '你确定删除: ',
+  'show-ticket-modal-delete-title'   => '删除工单',
+  'show-ticket-modal-delete-message' => '你确定要删除: :subject?',
 
  /*
   *  Controllers
   */
 
 // AgentsController
-  'agents-are-added-to-agents'                      => 'Agents :names are added to agents',
-  'administrators-are-added-to-administrators'      => 'Administrators :names are added to administrators', //New
-  'agents-joined-categories-ok'                     => 'Joined categories successfully',
-  'agents-is-removed-from-team'                     => 'Removed agent\s :name from the agent team',
-  'administrators-is-removed-from-team'             => 'Removed administrator\s :name from the administrators team', // New
+  'agents-are-added-to-agents'                      => '客服 :names 被添加为客服',
+  'administrators-are-added-to-administrators'      => '管理员 :names 被添加为管理员', //New
+  'agents-joined-categories-ok'                     => '加入类别成功',
+  'agents-is-removed-from-team'                     => '从客服团队中移除客服\s :name ',
+  'administrators-is-removed-from-team'             => '从管理员团队中移除管理员\s :name ', // New
 
 // CategoriesController
-  'category-name-has-been-created'   => 'The category :name has been created!',
-  'category-name-has-been-modified'  => 'The category :name has been modified!',
-  'category-name-has-been-deleted'   => 'The category :name has been deleted!',
+  'category-name-has-been-created'   => '类别 :name 已创建!',
+  'category-name-has-been-modified'  => '类别 :name 已修改!',
+  'category-name-has-been-deleted'   => '类别 :name 已删除!',
 
 // PrioritiesController
-  'priority-name-has-been-created'   => 'The priority :name has been created!',
-  'priority-name-has-been-modified'  => 'The priority :name has been modified!',
-  'priority-name-has-been-deleted'   => 'The priority :name has been deleted!',
-  'priority-all-tickets-here'        => 'All priority related tickets here',
+  'priority-name-has-been-created'   => '优先级 :name 已创建!',
+  'priority-name-has-been-modified'  => '优先级 :name 已修改!',
+  'priority-name-has-been-deleted'   => '优先级 :name 已删除!',
+  'priority-all-tickets-here'        => '这里是所有与优先级相关的工单',
 
 // StatusesController
-  'status-name-has-been-created'   => 'The status :name has been created!',
-  'status-name-has-been-modified'  => 'The status :name has been modified!',
-  'status-name-has-been-deleted'   => 'The status :name has been deleted!',
-  'status-all-tickets-here'        => 'All status related tickets here',
+  'status-name-has-been-created'   => '状态 :name 已创建!',
+  'status-name-has-been-modified'  => '状态 :name 已修改!',
+  'status-name-has-been-deleted'   => '状态 :name 已删除!',
+  'status-all-tickets-here'        => '这里是所有与状态相关的工单',
 
 // CommentsController
-  'comment-has-been-added-ok'        => 'Comment has been added successfully',
+  'comment-has-been-added-ok'        => '成功发表评论',
 
 // NotificationsController
-  'notify-new-comment-from'          => 'New comment from ',
-  'notify-on'                        => ' on ',
-  'notify-status-to-complete'        => ' status to Complete',
-  'notify-status-to'                 => ' status to ',
-  'notify-transferred'               => ' transferred ',
-  'notify-to-you'                    => ' to you',
-  'notify-created-ticket'            => ' created ticket ',
-  'notify-updated'                   => ' updated ',
+  'notify-new-comment-from'          => '新评论表单 ',
+  'notify-on'                        => ' 打开 ',
+  'notify-status-to-complete'        => ' 要完成的状态',
+  'notify-status-to'                 => ' 状态改为 ',
+  'notify-transferred'               => ' 已交接 ',
+  'notify-to-you'                    => ' 给您',
+  'notify-created-ticket'            => ' 新建工单 ',
+  'notify-updated'                   => ' 更新 ',
 
  // TicketsController
-  'the-ticket-has-been-created'      => 'The ticket has been created!',
-  'the-ticket-has-been-modified'     => 'The ticket has been modified!',
-  'the-ticket-has-been-deleted'      => 'The ticket :name has been deleted!',
-  'the-ticket-has-been-completed'    => 'The ticket :name has been completed!',
-  'the-ticket-has-been-reopened'     => 'The ticket :name has been reopened!',
-  'you-are-not-permitted-to-do-this' => 'You are not permitted to do this action!',
+  'the-ticket-has-been-created'      => '工单已新建!',
+  'the-ticket-has-been-modified'     => '工单已更改!',
+  'the-ticket-has-been-deleted'      => '工单 :name 已删除!',
+  'the-ticket-has-been-completed'    => '工单 :name 已完成!',
+  'the-ticket-has-been-reopened'     => '工单 :name 已被重新打开!',
+  'you-are-not-permitted-to-do-this' => '你没有权限执行此操作!',
 
  /*
  *  Middlewares
  */
 
  //  IsAdminMiddleware IsAgentMiddleware ResAccessMiddleware
-  'you-are-not-permitted-to-access'     => 'You are not permitted to access this page!',
+  'you-are-not-permitted-to-access'     => '你没有权限访问此页面!',
 
 ];
